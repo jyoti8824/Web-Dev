@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    background: #1b1b1b;
+    width: 100%;
+    padding: 10px 0;
+    position: fixed;
+    z-index: 1;
+}
+
+nav .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    max-width: 1250px;
+    margin: auto;
+}
+
+nav .navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navbar .logo a{
+    font-family:'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 620;
+    margin-right: 10px;
+}
+.baba{
+    display: flex;
+    float: inline-end;
+    margin-top: 15%;
+    margin-right: 12%;
+    height: 22rem;
+    width: 17rem;
+    border: 5px solid #fff;
+}
+.intro{
+    position: relative;
+    width: 30%;
+}
+h2{
+    color: #ad260491;
+    filter: drop-shadow(2px 1px 1px #fa3c2efa);
+    font-weight: 600;
+    margin-top: 20px;
+    line-height: 1;
+}
+p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 20px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.navbar ul a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 550;
+    padding: 5px 8px;
+    border-radius: 3.5px;
+    transition: all 0.3s ease;
+}
+
+.navbar ul a:hover{
+    background-color: #fff;
+    color: #1b1b1b;
+}
+
+img{
+    width: 150px;
+}
+.image{
+    content: '';
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background:url("./image/Untitled\ design.png") no-repeat ;
+    background-size: cover;
+}
+
+.center {
+    position: absolute;
+    top: 150px;
+    left: 250px; 
+    width: auto;
+    transform: none;
+    padding: 0 20px;
+    text-align: left;
+    margin-left: 0;
+}
+
+
+.center .title {
+    font-family: 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+    font-size: 55px;
+    color: #fff;
+    font-weight: 600;
+    filter: drop-shadow(2px 3px 1.5px #eb471e91);
+}
+
+.center .sub_title {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+    filter: drop-shadow(2px 3px 1.5px #eb471e91);
+    position:absolute;
+    top: 0;
+    left: 0;
+    transform: translate(100%, 580%);
+    text-align: left;
+    color: white;
+}
+
+@media screen and (max-width: 917px) {
+    nav .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .baba{
+        visibility: hidden;
+    }
+}

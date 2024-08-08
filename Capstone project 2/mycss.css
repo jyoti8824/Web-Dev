@@ -1,0 +1,168 @@
+body {
+  color: #2c3e50;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  background-color: #f4f4f9;
+}
+
+h1 {
+  color: #084b77;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+}
+
+h2 {
+  color: #084b77;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h2.h22 {
+  font-size: 2rem;
+}
+
+h3 {
+  color: #2980b9;
+  font-family: "Merriweather", serif;
+}
+
+p {
+  line-height: 2;
+}
+
+
+hr {
+  border: dotted #ecf0f1 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  color: #2980b9;
+  font-family: "Merriweather", serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ecf0f1;
+}
+
+.title-text{
+  margin-right: 40%;
+}
+
+
+.top-container {
+  background-color: #ecf0f1;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(Untitleddesign.png);
+  height: 50vh;
+  position: relative;
+  background-size: cover;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.intro {
+  width: 60%;
+  margin: auto;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+
+.bottom-container {
+  background-color: #3498db;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #ecf0f1;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.database-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  background: #2980b9;
+  background-image: linear-gradient(to bottom, #2980b9, #3498db);
+  border-radius: 8px;
+  font-family: "Merriweather", serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background: #1abc9c;
+  background-image: linear-gradient(to bottom, #1abc9c, #16a085);
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .intro {
+    width: 80%;
+  }
+}
